@@ -10,7 +10,7 @@ public class ApplicationInfoLog extends AbstractApplicationLog {
 	@Override
 	public void setMessage(String message) {
 		this.message = message;
-        super.fireMessage("[INFO]", this.message);
+		ApplicationSession.instance().getGUILogger().info(this.message);
+        	super.fireMessage("Info : ", this.message);
 	}
-
 }
