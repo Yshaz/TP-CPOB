@@ -15,6 +15,7 @@ public class ApplicationLogs extends ArrayList<IApplicationLog> {
 				filteredLogs.add(a);
 		return filteredLogs;
 	}
+	
 	public ArrayList<IApplicationLog> getWarnings() {
 		ArrayList<IApplicationLog> filteredLogs = new ArrayList<IApplicationLog>();
 		for (IApplicationLog a : this)
@@ -22,6 +23,7 @@ public class ApplicationLogs extends ArrayList<IApplicationLog> {
 				filteredLogs.add(a);
 		return filteredLogs;
 	}
+	
 	public ArrayList<IApplicationLog> getInfos() {
 		ArrayList<IApplicationLog> filteredLogs = new ArrayList<IApplicationLog>();
 		for (IApplicationLog a : this)
@@ -29,6 +31,4 @@ public class ApplicationLogs extends ArrayList<IApplicationLog> {
 				filteredLogs.add(a);
 		return filteredLogs;
 	}
-	
-
 }
