@@ -317,3 +317,7 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/iuttp/src/edu/
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 !SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-25 10:02:20.719
 !MESSAGE Resource '/iuttp/src/edu/iut/app/IUTException.java' does not exist.
+
+!ENTRY org.eclipse.core.net 4 0 2015-11-25 10:30:26.495
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'Impossible de télécharger le script de configuration automatique du Proxy
+' #12167.
